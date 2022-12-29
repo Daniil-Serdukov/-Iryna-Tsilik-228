@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #89B8C2;
+}
+main{
+    background-color: #ffffff;
+    margin: 0 auto;
+  
+}
+img{
+    display: block;
+    max-width: 100%;
+
+}
+
+@media screen and (min-width: 412px){
+    main{
+        max-width: 356px;
+        border-radius: 8px 8px 0px 0px;
+        padding: 16px;}
+}
+@media screen and (min-width: 620px){
+    main{
+        max-width: 620px;
+        padding: 16px 30px;
+    }
+}
+@media screen and (min-width: 820px){
+    main {
+    max-width: 680px;
+    border-radius: 16px 16px 0px 0px;
+    padding: 30px 60px;}
+}
+
+.hidden{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 3px;
+    font-family: 'Arial Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+      
+    color: #000000;
+}
+@media screen and (min-width: 620px) {
+    .hidden{
+        display: none;
+    }
+}
+header{
+    background-color: #CCE9F4;
+    border-radius: 8px;
+    
+    
+}
+
+    @media screen and (min-width: 412px) and (max-width: 620px){
+        header
+        {max-width: 386px;
+        padding-bottom: 5px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+        margin-top: 12px;
+        text-align: center;}
+      
+    }
+
+    @media screen and (min-width: 620px){
+        header
+        {max-width: 358px;
+        
+        padding: 0;
+        margin-bottom: 16px;
+        margin-top: 24px;
+        }
+        .container{
+          
+            width: 680px;
+            margin: 0 auto;
+        }
+    }
+    @media screen and (min-width: 820px){
+        header{  
+        max-width: 800px;
+        
+        padding: 4px 0px;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: center;
+        margin-bottom: 16px;
+        margin-top: 65px;}
+        .container{
+           
+            width: 800px;
+            margin: 0 auto;
+        }
+    }
+
+
+    
+
+ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    
+  }
+  @media screen and (min-width: 412px){
+    ul{
+        flex-direction: column;
+    }
+   
+}
+    @media screen and (min-width: 620px){
+        ul{
+            flex-direction: row;
+        }
+}
+@media screen and (min-width: 820px){
+    ul{   
+        gap: 10px;}
+}
+
+  .link{
+    display: block;
+    padding: 6px 10px;
+    text-decoration: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #006EBE;
+  }
+.link:visited{
+    color: #0B257D;
+}
+.link:hover{
+    background-color: #fff;
+    color: #5EAAE0;
+    border-radius: 4px;
+    cursor: url(./img/cursor-hover.svg), auto;
+}
+.link-block{
+    text-decoration: none;
+    color: #006EBE;
+}
+
+h1{
+font-family: 'Arial';
+font-style: normal;
+font-weight: 900;
+color: #000000;
+margin-top: 16px;
+margin-bottom: 16px;
+
+}
+@media screen and (min-width: 412px) {
+    h1{
+        font-size: 36px;
+        line-height: 51px;
+    }
+}
+@media screen and (min-width: 620px) {
+    h1{
+        font-size: 52px;
+        line-height: 73px;
+    }
+}
+
+.block{
+    background-color: #E9E9E9;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+h2{
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+
+color: #000000;
+
+}
+@media screen and (min-width: 412px) {
+    h2{
+        font-size: 24px;
+        line-height: 28px;                     
+    }
+}
+@media screen and (min-width: 620px) {
+    h2{
+        font-size: 28px;
+        line-height: 32px;
+    }
+}
+p{
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+
+color: #000000;
+}
+@media screen and (min-width: 412px) {
+   p{
+    font-size: 12px;
+    line-height: 16px;                     
+    }
+}
+@media screen and (min-width: 620px) {
+   p{
+    font-size: 14px;
+    line-height: 21px;
+    }
+}
+
+section:not(:last-child){
+    margin-bottom: 16px;
+}
+figure{
+    background-color: #CCE9F4;
+}
+@media screen and (min-width: 412px){
+    figur
+
+    
